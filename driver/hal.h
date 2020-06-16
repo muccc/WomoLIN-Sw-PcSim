@@ -21,8 +21,8 @@ namespace pcsim::driver
 	    ~CHal() = default;
 	    IControlbus &          GetHandleControlbus() override final;
 
-	    siguni::interface::IInputHwBoardVersion &     GetInputHwBoardVersion() override final;
-	    siguni::interface::IInputDriverVersion &      GetInputDriverVersion() override final;
+	    siguni::interface::IInputHwBoardVersion &     GetHandleInputHwBoardVersion() override final;
+	    siguni::interface::IInputDriverVersion &      GetHandleInputDriverVersion() override final;
 
 	    IOutputBiRelayK1 &     GetHandleOutputBiRelayK1() override final;
 	    IOutputBiRelayK2 &     GetHandleOutputBiRelayK2() override final;

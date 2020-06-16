@@ -28,8 +28,8 @@ namespace pcsim
 
          // units
         
-         siguni::CUnitInput         inputHwBoardVersion { GetInputHwBoardVersion() } ; 
-         siguni::CUnitInput         inputDriverVersion { GetInputDriverVersion() } ; 
+         siguni::CUnitInput         inputHwBoardVersion { GetHandleInputHwBoardVersion() } ; 
+         siguni::CUnitInput         inputDriverVersion { GetHandleInputDriverVersion() } ; 
  
          siguni::CUnitOutput        outputK1 { GetHandleOutputBiRelayK1() } ; 
          siguni::CUnitOutput        outputK2 { GetHandleOutputBiRelayK2() } ; 

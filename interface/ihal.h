@@ -18,8 +18,8 @@ namespace pcsim::driver
 
 	   virtual IControlbus &         GetHandleControlbus() = 0;
 
-	   virtual siguni::interface::IInputHwBoardVersion &     GetInputHwBoardVersion() = 0;
-	   virtual siguni::interface::IInputDriverVersion &      GetInputDriverVersion() = 0;
+	   virtual siguni::interface::IInputHwBoardVersion &     GetHandleInputHwBoardVersion() = 0;
+	   virtual siguni::interface::IInputDriverVersion &      GetHandleInputDriverVersion() = 0;
 
 	   virtual IOutputBiRelayK1 &    GetHandleOutputBiRelayK1() = 0;
 	   virtual IOutputBiRelayK2 &    GetHandleOutputBiRelayK2() = 0;

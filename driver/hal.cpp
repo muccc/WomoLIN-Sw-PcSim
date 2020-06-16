@@ -26,12 +26,12 @@ namespace pcsim::driver
    }
 
 
-	siguni::interface::IInputHwBoardVersion & CHal::GetInputHwBoardVersion()
+	siguni::interface::IInputHwBoardVersion & CHal::GetHandleInputHwBoardVersion()
    {
       return inputHwBoardVersion;
    }
 
-	siguni::interface::IInputDriverVersion & CHal::GetInputDriverVersion()
+	siguni::interface::IInputDriverVersion & CHal::GetHandleInputDriverVersion()
    {
       return inputDriverVersion;
    }
