@@ -19,7 +19,7 @@ namespace pcsim::driver
 	public:
        CHal();
 	    ~CHal() = default;
-	    IControlbus &          GetHandleControlbus() override final;
+	    siguni::interface::IControlbus &          GetHandleControlbus() override final;
 
 	    siguni::interface::IUnitInputGetHwBoardVersion &     GetHandleUnitInputGetHwBoardVersion() override final;
 	    siguni::interface::IUnitInputGetDriverVersion &      GetHandleUnitInputGetDriverVersion() override final;

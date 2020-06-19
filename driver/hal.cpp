@@ -20,7 +20,7 @@ namespace pcsim::driver
    {
    }
 
-   IControlbus & CHal::GetHandleControlbus()
+   siguni::interface::IControlbus & CHal::GetHandleControlbus()
    {
       return Controlbus;
    }

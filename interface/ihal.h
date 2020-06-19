@@ -6,7 +6,6 @@
 
 #include "siguni/interface/ihw.h"
 
-#include "icontrolbus.h"
 #include "ibirelay.h"
 
 namespace pcsim::driver
@@ -16,7 +15,7 @@ namespace pcsim::driver
 	public:
       virtual ~IHal() = default;
 
-	   virtual IControlbus &         GetHandleControlbus() = 0;
+	   virtual siguni::interface::IControlbus &         GetHandleControlbus() = 0;
 
 	   virtual siguni::interface::IUnitInputGetHwBoardVersion &     GetHandleUnitInputGetHwBoardVersion() = 0;
 	   virtual siguni::interface::IUnitInputGetDriverVersion &      GetHandleUnitInputGetDriverVersion() = 0;
