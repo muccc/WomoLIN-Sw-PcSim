@@ -16,7 +16,7 @@
 
 namespace pcsim::driver
 {
-	class CControlbus : public IControlbus
+	class CControlbus : public siguni::interface::IControlbus
 	{
 	  public:
        CControlbus(); 
