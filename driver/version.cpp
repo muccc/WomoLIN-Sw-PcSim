@@ -9,13 +9,13 @@
 namespace pcsim::driver
 {
 
-	void CUnitInputGetHwBoardVersion::Get( std::string & attGetInput, std::map<std::string_view, std::string> & /*attAdditionalSettings*/ )
+	void CUnitInputGetHwBoardVersion::Get( std::string & attGetInput, siguni::interface::CAdditionals & /*attAdditionals*/ )
    {
       attGetInput = "9.99";
       std::cout << "Hw Board Version Input :" << attGetInput << std::endl;
    }
 
-	void CUnitInputGetDriverVersion::Get( std::string & attGetInput, std::map<std::string_view, std::string> & /*attAdditionalSettings*/ )
+	void CUnitInputGetDriverVersion::Get( std::string & attGetInput, siguni::interface::CAdditionals & /*attAdditionals*/ )
    {
       attGetInput = "9.99";
       std::cout << "Driver Version Input :" << attGetInput << std::endl;

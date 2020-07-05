@@ -15,7 +15,7 @@ namespace pcsim::driver
        CUnitInputGetHwBoardVersion() = default;
 		 ~CUnitInputGetHwBoardVersion() = default;
 
-		 void Get( std::string & attGetInput, std::map<std::string_view, std::string> & attAdditionalSettings ) override final;
+		 void Get( std::string & attGetInput, siguni::interface::CAdditionals & additionals ) override final;
    };
 
 	class CUnitInputGetDriverVersion : public siguni::interface::IUnitInputGetDriverVersion
@@ -24,7 +24,7 @@ namespace pcsim::driver
        CUnitInputGetDriverVersion() = default;
 		 ~CUnitInputGetDriverVersion() = default;
 
-		 void Get( std::string & attGetInput, std::map<std::string_view, std::string> & attAdditionalSettings ) override final;
+		 void Get( std::string & attGetInput, siguni::interface::CAdditionals & additionals ) override final;
    };
 }
 

@@ -14,7 +14,7 @@ namespace pcsim::driver
 	  public:
 		 virtual ~IUnitOutputSetResetK1() = default;
 
-		 void Set( std::string & attSetOutput, std::map<std::string_view, std::string> & attAdditionalSettings ) override = 0;
+		 void Set( std::string & attSetOutput, siguni::interface::CAdditionals & additionals ) override = 0;
 	};
 
 	class IUnitOutputSetResetK2 : public siguni::interface::IUnitOutput 
@@ -22,7 +22,7 @@ namespace pcsim::driver
 	  public:
 		 virtual ~IUnitOutputSetResetK2() = default;
 
-		 void Set( std::string & attSetOutput, std::map<std::string_view, std::string> & attAdditionalSettings ) override = 0;
+		 void Set( std::string & attSetOutput, siguni::interface::CAdditionals & additionals ) override = 0;
 	};
 
 	class IUnitInputGetK1 : public siguni::interface::IUnitInput
@@ -30,7 +30,7 @@ namespace pcsim::driver
 	  public:
 		 virtual ~IUnitInputGetK1() = default;
 
-		 void Get( std::string & attGetInput, std::map<std::string_view, std::string> & attAdditionalSettings ) override = 0;
+		 void Get( std::string & attGetInput, siguni::interface::CAdditionals & additionals ) override = 0;
 	};
 
 	class IUnitInputGetK2 : public siguni::interface::IUnitInput
@@ -38,7 +38,7 @@ namespace pcsim::driver
 	  public:
 		 virtual ~IUnitInputGetK2() = default;
 
-		 void Get( std::string & attGetInput, std::map<std::string_view, std::string> & attAdditionalSettings ) override = 0;
+		 void Get( std::string & attGetInput, siguni::interface::CAdditionals & additionals ) override = 0;
 	};
 
 
