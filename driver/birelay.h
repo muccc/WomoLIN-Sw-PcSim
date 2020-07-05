@@ -15,7 +15,7 @@ namespace pcsim::driver
        CUnitOutputSetResetK1() = default;
 		 ~CUnitOutputSetResetK1() = default;
 
-		 void Set( std::string & attSetOutput ) override final;
+		 void Set( std::string & attSetOutput, std::map<std::string_view, std::string> & attAdditionalSettings ) override final;
 	};
 
 	class CUnitOutputSetResetK2 : public IUnitOutputSetResetK2 
@@ -24,7 +24,7 @@ namespace pcsim::driver
        CUnitOutputSetResetK2() = default;
 		 ~CUnitOutputSetResetK2() = default;
 
-		 void Set( std::string & attSetOutput ) override final;
+		 void Set( std::string & attSetOutput, std::map<std::string_view, std::string> & attAdditionalSettings ) override final;
 	};
 
 	class CUnitInputGetK1 : public IUnitInputGetK1 
@@ -33,7 +33,7 @@ namespace pcsim::driver
        CUnitInputGetK1() = default;
 		 ~CUnitInputGetK1() = default;
 
-		 void Get( std::string & attGetInput ) override final;
+		 void Get( std::string & attGetInput, std::map<std::string_view, std::string> & attAdditionalSettings ) override final;
 	};
 
 	class CUnitInputGetK2 : public IUnitInputGetK2 
@@ -42,7 +42,7 @@ namespace pcsim::driver
        CUnitInputGetK2() = default;
 		 ~CUnitInputGetK2() = default;
 
-		 void Get( std::string & attGetInput ) override final;
+		 void Get( std::string & attGetInput, std::map<std::string_view, std::string> & attAdditionalSettings ) override final;
 	};
 
 
