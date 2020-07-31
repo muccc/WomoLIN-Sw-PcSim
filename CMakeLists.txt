@@ -1,7 +1,7 @@
 cmake_minimum_required (VERSION 3.16)
 
-SET(CMAKE_C_COMPILER "/usr/bin/gcc-9" )
-SET(CMAKE_CXX_COMPILER "/usr/bin/g++-9" )
+SET(CMAKE_C_COMPILER "gcc-9" )
+SET(CMAKE_CXX_COMPILER "g++-9" )
 
 SET(CMAKE_CXX_STANDARD 20)
 SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Werror -Wpedantic -Werror=pedantic -Wextra")
