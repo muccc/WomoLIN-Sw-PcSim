@@ -18,8 +18,8 @@ add_subdirectory(driver)
 #link_directories(${CMAKE_BINARY_DIR}/../siguni/x86 ${CMAKE_BINARY_DIR}/driver )
 
 add_executable(${PROJECT_NAME}
-   main
-   manager
+   main.cpp
+   manager.cpp
 )
 
 target_link_libraries (${PROJECT_NAME} siguni driverpcsim)

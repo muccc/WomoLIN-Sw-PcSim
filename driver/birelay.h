@@ -27,6 +27,26 @@ namespace pcsim::driver
 		 void Set( std::string & attSetOutput, siguni::interface::CAdditionals & additionals ) override final;
 	};
 
+	class CUnitOutputSetResetK3 : public IUnitOutputSetResetK3 
+	{
+	  public:
+       CUnitOutputSetResetK3() = default;
+		 ~CUnitOutputSetResetK3() = default;
+
+		 void Set( std::string & attSetOutput, siguni::interface::CAdditionals & additionals ) override final;
+	};
+
+	class CUnitOutputSetResetK4 : public IUnitOutputSetResetK4 
+	{
+	  public:
+       CUnitOutputSetResetK4() = default;
+		 ~CUnitOutputSetResetK4() = default;
+
+		 void Set( std::string & attSetOutput, siguni::interface::CAdditionals & additionals ) override final;
+	};
+
+
+
 	class CUnitInputGetK1 : public IUnitInputGetK1 
 	{
 	  public:
@@ -41,6 +61,24 @@ namespace pcsim::driver
 	  public:
        CUnitInputGetK2() = default;
 		 ~CUnitInputGetK2() = default;
+
+		 void Get( std::string & attGetInput, siguni::interface::CAdditionals & additionals ) override final;
+	};
+
+	class CUnitInputGetK3 : public IUnitInputGetK3 
+	{
+	  public:
+       CUnitInputGetK3() = default;
+		 ~CUnitInputGetK3() = default;
+
+		 void Get( std::string & attGetInput, siguni::interface::CAdditionals & additionals ) override final;
+	};
+
+	class CUnitInputGetK4 : public IUnitInputGetK4 
+	{
+	  public:
+       CUnitInputGetK4() = default;
+		 ~CUnitInputGetK4() = default;
 
 		 void Get( std::string & attGetInput, siguni::interface::CAdditionals & additionals ) override final;
 	};

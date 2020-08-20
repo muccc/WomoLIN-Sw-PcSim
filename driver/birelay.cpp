@@ -19,6 +19,17 @@ namespace pcsim::driver
       std::cout << "Bi Relay K2 set output to " << attSetOutput << std::endl;
    } 
 
+   void CUnitOutputSetResetK3::Set( std::string & attSetOutput, siguni::interface::CAdditionals & /*attAdditionals*/ )
+   {
+      std::cout << "Bi Relay K3 set output to " << attSetOutput << std::endl;
+   } 
+
+   void CUnitOutputSetResetK4::Set( std::string & attSetOutput, siguni::interface::CAdditionals & /*attAdditionals*/ )
+   {
+      std::cout << "Bi Relay K4 set output to " << attSetOutput << std::endl;
+   } 
+
+
    void CUnitInputGetK1::Get( std::string & attGetInput, siguni::interface::CAdditionals & /*attAdditionals*/ )
    {
       attGetInput = "UNKNOWN";
@@ -29,6 +40,18 @@ namespace pcsim::driver
    {
       attGetInput = "UNKNOWN";
       std::cout << "Bi Relay K2 Input :" << attGetInput << std::endl;
+   } 
+
+   void CUnitInputGetK3::Get( std::string & attGetInput, siguni::interface::CAdditionals & /*attAdditionals*/ )
+   {
+      attGetInput = "UNKNOWN";
+      std::cout << "Bi Relay K3 Input :" << attGetInput << std::endl;
+   } 
+
+   void CUnitInputGetK4::Get( std::string & attGetInput, siguni::interface::CAdditionals & /*attAdditionals*/ )
+   {
+      attGetInput = "UNKNOWN";
+      std::cout << "Bi Relay K4 Input :" << attGetInput << std::endl;
    } 
 
 }

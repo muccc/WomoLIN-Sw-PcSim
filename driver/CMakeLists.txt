@@ -13,9 +13,10 @@ add_subdirectory(gtest)
 endif()
 
 add_library(${LIB_NAME}
-   hal
-   controlbus
-   birelay
-   version
+   hal.cpp
+   controlbus.cpp
+   birelay.cpp
+   extrelay.cpp
+   version.cpp
 )
 
