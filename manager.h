@@ -30,15 +30,15 @@ namespace pcsim
          siguni::CUnitInput         UnitInputGetDriverVersion { GetHandleUnitInputGetDriverVersion() } ; 
  
          // units birelays Kx 
-         siguni::CUnitOutput        UnitOutputSetResetK1 { GetHandleUnitOutputSetResetK1() } ; 
-         siguni::CUnitOutput        UnitOutputSetResetK2 { GetHandleUnitOutputSetResetK2() } ; 
-         siguni::CUnitOutput        UnitOutputSetResetK3 { GetHandleUnitOutputSetResetK3() } ; 
-         siguni::CUnitOutput        UnitOutputSetResetK4 { GetHandleUnitOutputSetResetK4() } ; 
+         siguni::CUnitOutput        UnitOutputSetResetBirelayK1 { GetHandleUnitOutputSetResetBirelayK1() } ; 
+         siguni::CUnitOutput        UnitOutputSetResetBirelayK2 { GetHandleUnitOutputSetResetBirelayK2() } ; 
+         siguni::CUnitOutput        UnitOutputSetResetBirelayK3 { GetHandleUnitOutputSetResetBirelayK3() } ; 
+         siguni::CUnitOutput        UnitOutputSetResetBirelayK4 { GetHandleUnitOutputSetResetBirelayK4() } ; 
 
-         siguni::CUnitInput         UnitInputGetK1 { GetHandleUnitInputGetK1() } ; 
-         siguni::CUnitInput         UnitInputGetK2 { GetHandleUnitInputGetK2() } ; 
-         siguni::CUnitInput         UnitInputGetK3 { GetHandleUnitInputGetK3() } ; 
-         siguni::CUnitInput         UnitInputGetK4 { GetHandleUnitInputGetK4() } ; 
+         siguni::CUnitInput         UnitInputGetBirelayK1 { GetHandleUnitInputGetBirelayK1() } ; 
+         siguni::CUnitInput         UnitInputGetBirelayK2 { GetHandleUnitInputGetBirelayK2() } ; 
+         siguni::CUnitInput         UnitInputGetBirelayK3 { GetHandleUnitInputGetBirelayK3() } ; 
+         siguni::CUnitInput         UnitInputGetBirelayK4 { GetHandleUnitInputGetBirelayK4() } ; 
 
          // units external relays  
          siguni::CUnitOutput        UnitOutputSetResetExtRelay1 { GetHandleUnitOutputSetResetExtRelay1() } ; 
@@ -65,10 +65,10 @@ namespace pcsim
          siguni::CSignalGetVersion  GetDriverVersion { siguni::CSignalGetVersion() };
 
          // signals birelays Kx 
-         siguni::CSignalSetReset    SetResetK1 { siguni::CSignalSetReset() };
-         siguni::CSignalSetReset    SetResetK2 { siguni::CSignalSetReset() };
-         siguni::CSignalSetReset    SetResetK3 { siguni::CSignalSetReset() };
-         siguni::CSignalSetReset    SetResetK4 { siguni::CSignalSetReset() };
+         siguni::CSignalSetReset    SetResetBirelayK1 { siguni::CSignalSetReset() };
+         siguni::CSignalSetReset    SetResetBirelayK2 { siguni::CSignalSetReset() };
+         siguni::CSignalSetReset    SetResetBirelayK3 { siguni::CSignalSetReset() };
+         siguni::CSignalSetReset    SetResetBirelayK4 { siguni::CSignalSetReset() };
 
          siguni::CSignalSetReset    GetBirelayK1 { siguni::CSignalSetReset() };
          siguni::CSignalSetReset    GetBirelayK2 { siguni::CSignalSetReset() };

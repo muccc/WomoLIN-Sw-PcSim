@@ -11,34 +11,34 @@ namespace pcsim::driver
 
    // outputs
 
-	class IUnitOutputSetResetK1 : public siguni::interface::IUnitOutput 
+	class IUnitOutputSetResetBirelayK1 : public siguni::interface::IUnitOutput 
 	{
 	  public:
-		 virtual ~IUnitOutputSetResetK1() = default;
+		 virtual ~IUnitOutputSetResetBirelayK1() = default;
 
 		 void Set( std::string & attSetOutput, siguni::interface::CAdditionals & additionals ) override = 0;
 	};
 
-	class IUnitOutputSetResetK2 : public siguni::interface::IUnitOutput 
+	class IUnitOutputSetResetBirelayK2 : public siguni::interface::IUnitOutput 
 	{
 	  public:
-		 virtual ~IUnitOutputSetResetK2() = default;
+		 virtual ~IUnitOutputSetResetBirelayK2() = default;
 
 		 void Set( std::string & attSetOutput, siguni::interface::CAdditionals & additionals ) override = 0;
 	};
 
-	class IUnitOutputSetResetK3 : public siguni::interface::IUnitOutput 
+	class IUnitOutputSetResetBirelayK3 : public siguni::interface::IUnitOutput 
 	{
 	  public:
-		 virtual ~IUnitOutputSetResetK3() = default;
+		 virtual ~IUnitOutputSetResetBirelayK3() = default;
 
 		 void Set( std::string & attSetOutput, siguni::interface::CAdditionals & additionals ) override = 0;
 	};
 
-	class IUnitOutputSetResetK4 : public siguni::interface::IUnitOutput 
+	class IUnitOutputSetResetBirelayK4 : public siguni::interface::IUnitOutput 
 	{
 	  public:
-		 virtual ~IUnitOutputSetResetK4() = default;
+		 virtual ~IUnitOutputSetResetBirelayK4() = default;
 
 		 void Set( std::string & attSetOutput, siguni::interface::CAdditionals & additionals ) override = 0;
 	};

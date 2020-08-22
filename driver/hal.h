@@ -25,10 +25,10 @@ namespace pcsim::driver
 	    siguni::interface::IUnitInputGetHwBoardVersion &     GetHandleUnitInputGetHwBoardVersion() override final;
 	    siguni::interface::IUnitInputGetDriverVersion &      GetHandleUnitInputGetDriverVersion() override final;
 
-	    IUnitOutputSetResetK1 &    GetHandleUnitOutputSetResetK1() override final;
-	    IUnitOutputSetResetK2 &    GetHandleUnitOutputSetResetK2() override final;
-	    IUnitOutputSetResetK3 &    GetHandleUnitOutputSetResetK3() override final;
-	    IUnitOutputSetResetK4 &    GetHandleUnitOutputSetResetK4() override final;
+	    IUnitOutputSetResetBirelayK1 &    GetHandleUnitOutputSetResetBirelayK1() override final;
+	    IUnitOutputSetResetBirelayK2 &    GetHandleUnitOutputSetResetBirelayK2() override final;
+	    IUnitOutputSetResetBirelayK3 &    GetHandleUnitOutputSetResetBirelayK3() override final;
+	    IUnitOutputSetResetBirelayK4 &    GetHandleUnitOutputSetResetBirelayK4() override final;
 
 	    IUnitInputGetBirelayK1 &GetHandleUnitInputGetBirelayK1() override final;
 	    IUnitInputGetBirelayK2 &GetHandleUnitInputGetBirelayK2() override final;
@@ -59,10 +59,10 @@ namespace pcsim::driver
 	    CUnitInputGetHwBoardVersion   UnitInputGetHwBoardVersion;
 	    CUnitInputGetDriverVersion    UnitInputGetDriverVersion;
 
-       CUnitOutputSetResetK1         UnitOutputSetResetK1; 
-       CUnitOutputSetResetK2         UnitOutputSetResetK2; 
-       CUnitOutputSetResetK3         UnitOutputSetResetK3; 
-       CUnitOutputSetResetK4         UnitOutputSetResetK4; 
+       CUnitOutputSetResetBirelayK1         UnitOutputSetResetBirelayK1; 
+       CUnitOutputSetResetBirelayK2         UnitOutputSetResetBirelayK2; 
+       CUnitOutputSetResetBirelayK3         UnitOutputSetResetBirelayK3; 
+       CUnitOutputSetResetBirelayK4         UnitOutputSetResetBirelayK4; 
 
 			CUnitInputGetBirelayK1	UnitInputGetBirelayK1;
 			CUnitInputGetBirelayK2	UnitInputGetBirelayK2;

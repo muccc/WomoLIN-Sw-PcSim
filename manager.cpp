@@ -18,10 +18,10 @@ namespace pcsim
       signalVector["GetDriverVersion"] = &GetDriverVersion;
 
       // signal vector birelays
-      signalVector["SetResetK1"] = &SetResetK1;
-      signalVector["SetResetK2"] = &SetResetK2;
-      signalVector["SetResetK3"] = &SetResetK3;
-      signalVector["SetResetK4"] = &SetResetK4;
+      signalVector["SetResetBirelayK1"] = &SetResetBirelayK1;
+      signalVector["SetResetBirelayK2"] = &SetResetBirelayK2;
+      signalVector["SetResetBirelayK3"] = &SetResetBirelayK3;
+      signalVector["SetResetBirelayK4"] = &SetResetBirelayK4;
 
       signalVector["GetBirelayK1"] = &GetBirelayK1;
       signalVector["GetBirelayK2"] = &GetBirelayK2;
@@ -53,10 +53,10 @@ namespace pcsim
       GetDriverVersion.AddUnit( &UnitInputGetDriverVersion );
 
       // connect birelays
-      SetResetK1.AddUnit( &UnitOutputSetResetK1 );
-      SetResetK2.AddUnit( &UnitOutputSetResetK2 );
-      SetResetK3.AddUnit( &UnitOutputSetResetK3 );
-      SetResetK4.AddUnit( &UnitOutputSetResetK4 );
+      SetResetBirelayK1.AddUnit( &UnitOutputSetResetBirelayK1 );
+      SetResetBirelayK2.AddUnit( &UnitOutputSetResetBirelayK2 );
+      SetResetBirelayK3.AddUnit( &UnitOutputSetResetBirelayK3 );
+      SetResetBirelayK4.AddUnit( &UnitOutputSetResetBirelayK4 );
 
       GetBirelayK1.AddUnit( &UnitInputGetBirelayK1 );
       GetBirelayK2.AddUnit( &UnitInputGetBirelayK2 );

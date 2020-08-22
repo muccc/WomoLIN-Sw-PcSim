@@ -13,10 +13,10 @@ namespace pcsim::driver
       : Controlbus()
       , UnitInputGetHwBoardVersion()
       , UnitInputGetDriverVersion()
-      , UnitOutputSetResetK1()
-      , UnitOutputSetResetK2()
-      , UnitOutputSetResetK3()
-      , UnitOutputSetResetK4()
+      , UnitOutputSetResetBirelayK1()
+      , UnitOutputSetResetBirelayK2()
+      , UnitOutputSetResetBirelayK3()
+      , UnitOutputSetResetBirelayK4()
       , UnitInputGetBirelayK1()
       , UnitInputGetBirelayK2()
       , UnitInputGetBirelayK3()
@@ -47,15 +47,15 @@ namespace pcsim::driver
 
 	siguni::interface::IUnitInputGetDriverVersion & CHal::GetHandleUnitInputGetDriverVersion() { return UnitInputGetDriverVersion; }
 
-	IUnitOutputSetResetK1 & CHal::GetHandleUnitOutputSetResetK1() { return UnitOutputSetResetK1; }
-	IUnitOutputSetResetK2 & CHal::GetHandleUnitOutputSetResetK2() { return UnitOutputSetResetK2; }
-	IUnitOutputSetResetK3 & CHal::GetHandleUnitOutputSetResetK3() { return UnitOutputSetResetK3; }
-	IUnitOutputSetResetK4 & CHal::GetHandleUnitOutputSetResetK4() { return UnitOutputSetResetK4; }
+	IUnitOutputSetResetBirelayK1 & CHal::GetHandleUnitOutputSetResetBirelayK1() { return UnitOutputSetResetBirelayK1; }
+	IUnitOutputSetResetBirelayK2 & CHal::GetHandleUnitOutputSetResetBirelayK2() { return UnitOutputSetResetBirelayK2; }
+	IUnitOutputSetResetBirelayK3 & CHal::GetHandleUnitOutputSetResetBirelayK3() { return UnitOutputSetResetBirelayK3; }
+	IUnitOutputSetResetBirelayK4 & CHal::GetHandleUnitOutputSetResetBirelayK4() { return UnitOutputSetResetBirelayK4; }
 
-	IUnitInputGetK1 & CHal::GetHandleUnitInputGetK1() { return UnitInputGetK1; }
-	IUnitInputGetK2 & CHal::GetHandleUnitInputGetK2() { return UnitInputGetK2; }
-	IUnitInputGetK3 & CHal::GetHandleUnitInputGetK3() { return UnitInputGetK3; }
-	IUnitInputGetK4 & CHal::GetHandleUnitInputGetK4() { return UnitInputGetK4; }
+	IUnitInputGetBirelayK1 & CHal::GetHandleUnitInputGetBirelayK1() { return UnitInputGetBirelayK1; }
+	IUnitInputGetBirelayK2 & CHal::GetHandleUnitInputGetBirelayK2() { return UnitInputGetBirelayK2; }
+	IUnitInputGetBirelayK3 & CHal::GetHandleUnitInputGetBirelayK3() { return UnitInputGetBirelayK3; }
+	IUnitInputGetBirelayK4 & CHal::GetHandleUnitInputGetBirelayK4() { return UnitInputGetBirelayK4; }
 
 
 	IUnitOutputSetResetExtRelay1 & CHal::GetHandleUnitOutputSetResetExtRelay1() { return UnitOutputSetResetExtRelay1; }

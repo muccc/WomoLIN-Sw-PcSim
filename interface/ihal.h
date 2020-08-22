@@ -21,10 +21,10 @@ namespace pcsim::driver
 	   virtual siguni::interface::IUnitInputGetHwBoardVersion &     GetHandleUnitInputGetHwBoardVersion() = 0;
 	   virtual siguni::interface::IUnitInputGetDriverVersion &      GetHandleUnitInputGetDriverVersion() = 0;
 
-	   virtual IUnitOutputSetResetK1 &    GetHandleUnitOutputSetResetK1() = 0;
-	   virtual IUnitOutputSetResetK2 &    GetHandleUnitOutputSetResetK2() = 0;
-	   virtual IUnitOutputSetResetK3 &    GetHandleUnitOutputSetResetK3() = 0;
-	   virtual IUnitOutputSetResetK4 &    GetHandleUnitOutputSetResetK4() = 0;
+	   virtual IUnitOutputSetResetBirelayK1 &    GetHandleUnitOutputSetResetBirelayK1() = 0;
+	   virtual IUnitOutputSetResetBirelayK2 &    GetHandleUnitOutputSetResetBirelayK2() = 0;
+	   virtual IUnitOutputSetResetBirelayK3 &    GetHandleUnitOutputSetResetBirelayK3() = 0;
+	   virtual IUnitOutputSetResetBirelayK4 &    GetHandleUnitOutputSetResetBirelayK4() = 0;
 
 	   virtual IUnitInputGetBirelayK1 &     GetHandleUnitInputGetBirelayK1() = 0;
 	   virtual IUnitInputGetBirelayK2 &     GetHandleUnitInputGetBirelayK2() = 0;

@@ -9,76 +9,76 @@
 namespace pcsim::driver
 {
 
-	class CUnitOutputSetResetK1 : public IUnitOutputSetResetK1 
+	class CUnitOutputSetResetBirelayK1 : public IUnitOutputSetResetBirelayK1 
 	{
 	  public:
-       CUnitOutputSetResetK1() = default;
-		 ~CUnitOutputSetResetK1() = default;
+       CUnitOutputSetResetBirelayK1() = default;
+		 ~CUnitOutputSetResetBirelayK1() = default;
 
 		 void Set( std::string & attSetOutput, siguni::interface::CAdditionals & additionals ) override final;
 	};
 
-	class CUnitOutputSetResetK2 : public IUnitOutputSetResetK2 
+	class CUnitOutputSetResetBirelayK2 : public IUnitOutputSetResetBirelayK2 
 	{
 	  public:
-       CUnitOutputSetResetK2() = default;
-		 ~CUnitOutputSetResetK2() = default;
+       CUnitOutputSetResetBirelayK2() = default;
+		 ~CUnitOutputSetResetBirelayK2() = default;
 
 		 void Set( std::string & attSetOutput, siguni::interface::CAdditionals & additionals ) override final;
 	};
 
-	class CUnitOutputSetResetK3 : public IUnitOutputSetResetK3 
+	class CUnitOutputSetResetBirelayK3 : public IUnitOutputSetResetBirelayK3 
 	{
 	  public:
-       CUnitOutputSetResetK3() = default;
-		 ~CUnitOutputSetResetK3() = default;
+       CUnitOutputSetResetBirelayK3() = default;
+		 ~CUnitOutputSetResetBirelayK3() = default;
 
 		 void Set( std::string & attSetOutput, siguni::interface::CAdditionals & additionals ) override final;
 	};
 
-	class CUnitOutputSetResetK4 : public IUnitOutputSetResetK4 
+	class CUnitOutputSetResetBirelayK4 : public IUnitOutputSetResetBirelayK4 
 	{
 	  public:
-       CUnitOutputSetResetK4() = default;
-		 ~CUnitOutputSetResetK4() = default;
+       CUnitOutputSetResetBirelayK4() = default;
+		 ~CUnitOutputSetResetBirelayK4() = default;
 
 		 void Set( std::string & attSetOutput, siguni::interface::CAdditionals & additionals ) override final;
 	};
 
 
 
-	class CUnitInputGetK1 : public IUnitInputGetK1 
+	class CUnitInputGetBirelayK1 : public IUnitInputGetBirelayK1 
 	{
 	  public:
-       CUnitInputGetK1() = default;
-		 ~CUnitInputGetK1() = default;
+       CUnitInputGetBirelayK1() = default;
+		 ~CUnitInputGetBirelayK1() = default;
 
 		 void Get( std::string & attGetInput, siguni::interface::CAdditionals & additionals ) override final;
 	};
 
-	class CUnitInputGetK2 : public IUnitInputGetK2 
+	class CUnitInputGetBirelayK2 : public IUnitInputGetBirelayK2 
 	{
 	  public:
-       CUnitInputGetK2() = default;
-		 ~CUnitInputGetK2() = default;
+       CUnitInputGetBirelayK2() = default;
+		 ~CUnitInputGetBirelayK2() = default;
 
 		 void Get( std::string & attGetInput, siguni::interface::CAdditionals & additionals ) override final;
 	};
 
-	class CUnitInputGetK3 : public IUnitInputGetK3 
+	class CUnitInputGetBirelayK3 : public IUnitInputGetBirelayK3 
 	{
 	  public:
-       CUnitInputGetK3() = default;
-		 ~CUnitInputGetK3() = default;
+       CUnitInputGetBirelayK3() = default;
+		 ~CUnitInputGetBirelayK3() = default;
 
 		 void Get( std::string & attGetInput, siguni::interface::CAdditionals & additionals ) override final;
 	};
 
-	class CUnitInputGetK4 : public IUnitInputGetK4 
+	class CUnitInputGetBirelayK4 : public IUnitInputGetBirelayK4 
 	{
 	  public:
-       CUnitInputGetK4() = default;
-		 ~CUnitInputGetK4() = default;
+       CUnitInputGetBirelayK4() = default;
+		 ~CUnitInputGetBirelayK4() = default;
 
 		 void Get( std::string & attGetInput, siguni::interface::CAdditionals & additionals ) override final;
 	};
