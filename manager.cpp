@@ -23,10 +23,10 @@ namespace pcsim
       signalVector["SetResetK3"] = &SetResetK3;
       signalVector["SetResetK4"] = &SetResetK4;
 
-      signalVector["GetK1"] = &GetK1;
-      signalVector["GetK2"] = &GetK2;
-      signalVector["GetK3"] = &GetK3;
-      signalVector["GetK4"] = &GetK4;
+      signalVector["GetBirelayK1"] = &GetBirelayK1;
+      signalVector["GetBirelayK2"] = &GetBirelayK2;
+      signalVector["GetBirelayK3"] = &GetBirelayK3;
+      signalVector["GetBirelayK4"] = &GetBirelayK4;
 
       // signal vector external relays
       signalVector["SetResetExtRelay1"] = &SetResetExtRelay1;
@@ -58,12 +58,12 @@ namespace pcsim
       SetResetK3.AddUnit( &UnitOutputSetResetK3 );
       SetResetK4.AddUnit( &UnitOutputSetResetK4 );
 
-      GetK1.AddUnit( &UnitInputGetK1 );
-      GetK2.AddUnit( &UnitInputGetK2 );
-      GetK3.AddUnit( &UnitInputGetK3 );
-      GetK4.AddUnit( &UnitInputGetK4 );
+      GetBirelayK1.AddUnit( &UnitInputGetBirelayK1 );
+      GetBirelayK2.AddUnit( &UnitInputGetBirelayK2 );
+      GetBirelayK3.AddUnit( &UnitInputGetBirelayK3 );
+      GetBirelayK4.AddUnit( &UnitInputGetBirelayK4 );
 
-      // conect external relays
+      // connect external relays
 
       SetResetExtRelay1.AddUnit( &UnitOutputSetResetExtRelay1 );
       SetResetExtRelay2.AddUnit( &UnitOutputSetResetExtRelay2 );

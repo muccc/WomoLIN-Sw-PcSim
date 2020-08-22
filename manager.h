@@ -70,10 +70,10 @@ namespace pcsim
          siguni::CSignalSetReset    SetResetK3 { siguni::CSignalSetReset() };
          siguni::CSignalSetReset    SetResetK4 { siguni::CSignalSetReset() };
 
-         siguni::CSignalSetReset    GetK1 { siguni::CSignalSetReset() };
-         siguni::CSignalSetReset    GetK2 { siguni::CSignalSetReset() };
-         siguni::CSignalSetReset    GetK3 { siguni::CSignalSetReset() };
-         siguni::CSignalSetReset    GetK4 { siguni::CSignalSetReset() };
+         siguni::CSignalSetReset    GetBirelayK1 { siguni::CSignalSetReset() };
+         siguni::CSignalSetReset    GetBirelayK2 { siguni::CSignalSetReset() };
+         siguni::CSignalSetReset    GetBirelayK3 { siguni::CSignalSetReset() };
+         siguni::CSignalSetReset    GetBirelayK4 { siguni::CSignalSetReset() };
 
          // signals external relays  
          siguni::CSignalSetReset    SetResetExtRelay1 { siguni::CSignalSetReset() };
